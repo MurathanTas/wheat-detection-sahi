@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+
+.env
+.env.local
+
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML model ağırlıkları (büyük, regeneratable)
+*.pt
+yolov8n.pt
+yolov8s.pt
+
+# Training çıktıları
+runs/
+
+# Dataset (büyük, download_dataset.py ile tekrar gelir)
+Wheat-Head-*/
+
+# Script çıktıları
+inference_result.jpg
+standard_result.jpg
+sahi_result.png
+sahi_result.jpg
+comparison_demo.jpg
+
+*.log

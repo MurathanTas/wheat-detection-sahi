@@ -8,7 +8,7 @@ Buğday başı sayımı için bilgisayar görüsü prototipi.
 
 ---
 
-## 📋 Proje Hakkında
+##  Proje Hakkında
 
 Bu proje, **buğday başı sayımı** için tasarlanmış uçtan uca bir bilgisayar görüsü prototipidir. Modern hassas tarım uygulamalarında, drone'dan elde edilen havadan görüntüler üzerinde otomatik mahsul sayımı, **verim tahmini** ve **hasat planlaması** için kritik bir bileşendir.
 
@@ -22,7 +22,7 @@ Bu proje, **buğday başı sayımı** için tasarlanmış uçtan uca bir bilgisa
 
 ---
 
-## ⚙️ Teknoloji Yığını
+##  Teknoloji Yığını
 
 | Bileşen | Sürüm / Detay |
 |---|---|
@@ -36,7 +36,7 @@ Bu proje, **buğday başı sayımı** için tasarlanmış uçtan uca bir bilgisa
 
 ---
 
-## 📊 Veri Seti
+##  Veri Seti
 
 - **İsim:** Kaggle Wheat-Head Detection
 - **Kaynak:** [Roboflow Universe](https://universe.roboflow.com/kaggle-lfmsn/wheat-head-nwevg)
@@ -48,7 +48,7 @@ Bu proje, **buğday başı sayımı** için tasarlanmış uçtan uca bir bilgisa
 
 ---
 
-## 🔬 Yöntem
+##  Yöntem
 
 ### Eğitim Konfigürasyonu
 
@@ -87,7 +87,7 @@ get_sliced_prediction(
 
 ---
 
-## 📈 Sonuçlar
+##  Sonuçlar
 
 ### Eğitim Metrikleri (best.pt, Epoch 30)
 
@@ -111,7 +111,7 @@ get_sliced_prediction(
 
 ---
 
-## 🔍 Bulgular — SAHI Üzerine Dürüst Analiz
+##  Bulgular — SAHI Performans Analizi
 
 **SAHI bu spesifik dataset'te performans artırmadı.** Beklenmeyen ama açıklanabilir bir sonuç.
 
@@ -137,7 +137,7 @@ Bu karşılaştırma framework'ü kurulduğuna göre, gerçek üretim drone veri
 
 ---
 
-## 🚀 Çalıştırma
+##  Çalıştırma
 
 ### Gereksinimler
 
@@ -190,7 +190,7 @@ python visualize_demo.py
 
 ---
 
-## 📁 Proje Yapısı
+##  Proje Yapısı
 
 ```
 wheat-detection-sahi/
@@ -209,7 +209,7 @@ wheat-detection-sahi/
 
 ---
 
-## 🏗️ Lokal Üretim Bağlamı
+##  Lokal Üretim Bağlamı
 
 Bu proje, **lokal drone üretimi + tarımsal AI yazılım katmanı** kombinasyonunun somut bir prototipidir. Türkiye'de zirai drone üreticileri (örn. Helimore Havacılık) tarlalar üzerinde uçuş yapıyor. Bu modülün entegrasyonu ile şu kullanım senaryoları açılır:
 
@@ -220,3 +220,7 @@ Bu proje, **lokal drone üretimi + tarımsal AI yazılım katmanı** kombinasyon
 İlk versiyon Kaggle benchmark dataset'iyle eğitildiği için doğrudan production'a uygun değil — drone üreticisinin **kendi alan verisiyle fine-tune** edildikten sonra lokal performans optimize edilebilir.
 
 ---
+
+##  Lisans
+
+Bu proje [MIT](LICENSE) lisansı altında dağıtılmıştır. Dataset, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) lisansına tabidir.
